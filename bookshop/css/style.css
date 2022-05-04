@@ -1,0 +1,259 @@
+* {
+	font-family: 'Bad Script'; /*шрифт*/
+	font-size: 20px; /*размер шрифта*/
+	color:black; /*цвет шрифта*/
+}
+
+body {
+	margin: 0 auto;
+	overflow-x: hidden; /*скрыть горизонтальную прокрутку*/
+}
+
+/*HEADER*/
+
+ .header_header {
+ 	background-color: #a6bdd7;
+ 	width: 100%;
+ 	height: 160px;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ }
+
+ .header_search_submit {
+ 	transition: 0.2s; /*время анимации*/
+ 	border-radius: 20px;
+ 	margin: 0;
+ }
+
+ .header_search_submit:hover {
+ 	transform: scale(1.05); /*увеличение при наведении*/
+ }
+
+ .header_div_column {
+ 	width: 100%;
+ 	display: flex;
+ 	flex-direction: column;
+ }
+
+ .header_div_row {
+ 	width: 100%;
+ 	display: flex;
+ 	justify-content: space-around;
+ 	align-items: center;
+ }
+
+ .header_div_row_search {
+ 	width: 100%;
+ 	height: 100%;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: flex-start;
+ }
+
+.username {
+	text-decoration:none; /*отключение окрашивания при нажатии ссылки*/
+	transition: 0.2s; /*время анимации*/
+}
+
+.username:hover {
+	transform: scale(1.05); /*увеличение при наведении*/
+}
+
+.search {
+	width: 400px;
+	padding: 0px 10px 0px;
+	border-radius: 10px;
+	margin-bottom:25px;
+}
+
+/*auth.php*/
+
+.div_auth_wrap {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 350px;
+	width: 500px;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 25px;
+	text-align: center;
+}
+
+.form_auth_column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.input_text_auth {
+	width: 250px;
+	border-radius: 10px;
+	padding: 0 10px 0;
+}
+
+.submit_auth {
+	border-radius: 10px;
+	width:100px;
+	transition: 0.2s; /*время анимации*/
+}
+
+.submit_auth:hover {
+	transform: scale(1.05); /*увеличение при наведении*/
+	color: green;
+}
+
+/*index.php*/
+
+.index_wrap {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 50px; 
+}
+
+.index_div {
+	margin-top: 15px;
+	margin: 15px 15px;
+	display: flex;
+	width: 300px;
+	height: 100px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+	background: rgba(240, 240, 240, 0.5);
+	transition: 0.2s; /*время анимации*/
+}
+
+.index_div:hover {
+	transform: scale(1.05); /*увеличение при наведении*/
+	color: green;
+}
+
+.index_div_row {
+	display: flex;
+	flex-direction: row;
+}
+
+.href_index {
+	font-size: 40px;
+	text-decoration: none;
+}
+
+/*pers_account.php*/
+
+.div_pers_acc {
+	align-items: center;
+	border-radius: 20px;
+	width: 600px;
+	height: 575px;
+	background: rgba(240, 240, 240, 0.5);
+	padding: 50px;
+}
+
+.pers_acc_column {
+	display: flex;
+	flex-direction: column;
+}
+
+.pers_acc_row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+.input_pers_acc {
+	width: 400px;
+	padding: 0 10px 0;
+}
+
+.pers_acc_submit {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.submit_pers_acc {
+	border-radius: 15px;
+	transition: 0.2s; /*время анимации*/
+}
+
+.submit_pers_acc:hover {	
+	transform: scale(1.05); /*увеличение при наведении*/
+	color: green;
+}
+
+.pers_message {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*edit_pers_acc.php*/
+
+.div_pers_acc_edit {
+	margin-top: 100px;
+	align-items: center;
+	border-radius: 20px;
+	width: 500px;
+	height: 200px;
+	background: rgba(240, 240, 240, 0.5);
+	padding: 50px;
+}
+
+/*books.php и  др страницы с просмотром*/
+
+.main_book {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.book_section {
+	margin-top: 50px;
+	background: rgba(240, 240, 240, 0.5);
+	width: 1000px;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.book_name_div {
+	text-align: center;
+}
+
+.book_name_text {
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+.book_column {
+	display: flex;
+	flex-direction: column;
+}
+
+.book_row {
+	display: flex;
+	flex-direction: row;
+}
+
+.hidden {
+	display: none;
+}
+
+.header_check {
+	font-size: 60px;
+	text-decoration: underline;
+}
+
+.submit_red_hover {
+	border-radius: 15px;
+	transition: 0.2s; /*время анимации*/
+}
+
+.submit_red_hover:hover {
+	transform: scale(1.05); /*увеличение при наведении*/
+	color: red;
+}
